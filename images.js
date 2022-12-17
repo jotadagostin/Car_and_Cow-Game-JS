@@ -14,12 +14,12 @@ let soundTrack;
 let soundCollide;
 let soundPoints;
 
-function preLoad() {
-    imageStreet = loadImage("imgs/street.png");
-    imageActor = loadImage("imgs/actor-1.png");
-    imageCar = loadImage('imgs/car-1.png');
-    imageCar2 = loadImage("imgs/car-2.png");
-    imageCar3 = loadImage("imgs/car-3.png");
+function preload() {
+    imageStreet = loadImage("images/street.png");
+    imageActor = loadImage("images/actor-1.png");
+    imageCar = loadImage('images/car-1.png');
+    imageCar2 = loadImage("images/car-2.png");
+    imageCar3 = loadImage("images/car-3.png");
     imageCars = [imageCar, imageCar2, imageCar3, imageCar, imageCar2, imageCar3];
 
     soundTrack = loadSound("songs/trilha.mp3");

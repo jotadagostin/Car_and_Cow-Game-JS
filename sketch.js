@@ -13,4 +13,5 @@ function draw() {
     verifyCollide();
     showPoints();
     markPoints();
+    
 }
